@@ -217,6 +217,7 @@ function Hero() {
         style={{ transform: `translateY(${-offset}px)` }}
       />
       <div className="veil absolute inset-0" />
+      <div className="absolute inset-0 bg-gradient-to-r from-background via-background/70 to-background/20" />
 
       <div className="relative mx-auto w-full max-w-[1400px] px-6 pt-32 pb-24 lg:px-12">
         <Reveal>
